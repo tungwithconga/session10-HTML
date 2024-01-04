@@ -1,0 +1,35 @@
+.flex-container {
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: row;
+    height: 100vh;
+    gap: 10px
+}
+.Item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 150px;
+        width: 150px;
+    }
+.Item:first-child{
+    background-color: red;
+    color:white;
+    text-align: center;
+    border-radius: 15px;
+
+
+}
+.Item:nth-child(2){
+    background-color:blue ;
+    color:white;
+    text-align: center;
+    border-radius: 80px;
+}
+.Item:last-child{
+    background-color: red;
+    color:white;
+    text-align: center;
+    border-radius: 15px;
+}
